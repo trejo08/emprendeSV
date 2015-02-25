@@ -35,7 +35,12 @@ header nav img{
 header .imagen img{
 	visibility: hidden;
 }
+	header .imagen2 img{
 
+	visibility: hidden;
+	
+    
+}
 header nav ul {
 	overflow:hidden;
 	list-style:none;
@@ -74,11 +79,6 @@ header nav ul li a:hover {
 	border-bottom-right-radius: 9000px;  
 }
 
-section {
-	z-index: -1;
-	padding:90px;
-}
-
 @media only screen and (max-width: 475px) {
   body {
 
@@ -109,6 +109,17 @@ section {
     top: -15px;
     
 }
+	header .imagen2 img{
+
+	visibility: visible;
+	width: 170px;
+    height: 60px;
+    float: center;
+    position:absolute;
+    top: 345px;
+    
+}
+
 
 
 	header nav img{
