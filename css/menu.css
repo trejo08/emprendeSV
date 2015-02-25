@@ -81,6 +81,7 @@ header nav ul li a:hover {
 }
 
 
+<<<<<<< HEAD
 /* de aqui en adelante es lo que Jonathan agrego =D de la pagina principal y las opciones */
 body{
 	background: #E0E0E0 ;
@@ -101,6 +102,10 @@ body{
 
 #capacitacion{
 	background: #159f85;
+=======
+  	
+  }
+>>>>>>> 2066d4035178a2ba17973830b47c1c9625db6769
 }
 
 #financiamiento{
