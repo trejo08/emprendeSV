@@ -6,6 +6,7 @@
 
 header {
 	width:100%;
+
 }
 
 header nav {
@@ -13,6 +14,7 @@ header nav {
 	height: 9%;
 	background:#20a8e9;
 	position: fixed;
+	z-index: 1000;
 
 }
 
@@ -73,7 +75,18 @@ header nav ul li a:hover {
 }
 
 section {
-	padding:70px;
+	z-index: -1;
+	padding:90px;
+}
+
+@media only screen and (max-width: 475px) {
+  body {
+
+  	
+    /* The file size of this background image is 93% smaller
+       to improve page load speed on mobile internet connections */
+    background-image: url(../imagenes/loading-19.png);
+  }
 }
 
 @media screen and (max-width:940px ) {
@@ -139,5 +152,63 @@ section {
 	.menu_bar span {
 		float:right;
 		font-size:40px;
-	}
+	}	
+}
+
+/* de aqui en adelante es lo que Jonathan agrego =D de la pagina principal y las opciones */
+body{
+	background: ;
+	font-size: 16px;
+}
+
+.ini{
+	height: 50%;
+	background: white;
+	color: white;
+	text-align: center;
+	padding-top: 10%;
+}
+
+#asistencia{
+	background: #19bd9b;
+}
+
+#capacitacion{
+	background: #159f85;
+}
+
+#financiamiento{
+	background: #f1c40f;
+}
+
+#networking{
+	background: #f29c11;
+}
+
+#red{
+	background: #e74b3c;
+}
+
+#asistencia:hover{
+	background: white;
+	color: #19bd9b;
+	font-size: 2em;
+}
+
+#capacitacion:hover{
+	background: white;
+	color: #159f85;
+	font-size: 2em;
+}
+
+#financiamiento:hover{
+	background: white;
+	color: #f1c40f;
+	font-size: 2em;
+}
+
+#networking:hover{
+	background: white;
+	color: #f29c11;
+	font-size: 2em;
 }
