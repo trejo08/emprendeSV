@@ -83,9 +83,6 @@ section {
   body {
 
   	
-    /* The file size of this background image is 93% smaller
-       to improve page load speed on mobile internet connections */
-    background-image: url(../imagenes/loading-19.png);
   }
 }
 
