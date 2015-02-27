@@ -43,3 +43,6 @@ group :development, :test do
   gem 'spring'
 end
 
+## Administration gems
+gem 'devise'
+gem 'passenger'
