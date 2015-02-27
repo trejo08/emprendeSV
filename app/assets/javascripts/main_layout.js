@@ -20,3 +20,8 @@
 //= require owl.carousel
 //= require easing
 //= require move-top
+
+
+$(function(){
+	new WOW().init();
+})
