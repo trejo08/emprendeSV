@@ -1,0 +1,294 @@
+* {
+	margin:0;
+	padding:0;
+
+}
+
+header {
+	width:100%;
+
+}
+
+header nav {
+	width:100%;
+	height: 9%;
+	background:#20a8e9;
+	position: fixed;
+	z-index: 1000;
+	opacity: 0.95;
+
+}
+
+.menu_bar {
+	display:none;
+}
+header nav img{
+
+    width: 230px;
+    height: 130px;
+    float: left;
+    margin-left: 80px;
+    position: absolute;
+    top: -30px;
+    
+
+}
+header .imagen img{
+	visibility: hidden;
+}
+	header .imagen2 img{
+
+	visibility: hidden;
+	
+    
+}
+header nav ul {
+	overflow:hidden;
+	list-style:none;
+	margin-left: 270px;
+
+}
+
+header nav ul li {
+	float:left;
+	margin-right: 10px;
+	
+
+}
+
+header nav ul li a {
+	color:#fff;
+	padding:20px;
+	display:block;
+	text-decoration:none;
+}
+
+header nav ul li span {
+	margin-right:5px;
+	margin-left: 5px;
+}
+
+header nav ul li a:hover {
+	background:#1E90FF;
+	text-decoration:none;
+
+	-webkit-border-radius: 9000px;
+	-webkit-border-bottom-right-radius: 9000px;
+	-moz-border-radius: 9000px;
+	-moz-border-radius-bottomright: 9000px;
+	border-radius: 9000px;
+	border-bottom-right-radius: 9000px;  
+}
+
+
+<<<<<<< HEAD
+/* de aqui en adelante es lo que Jonathan agrego =D de la pagina principal y las opciones */
+body{
+	background: #E0E0E0 ;
+	font-size: 16px;
+}
+
+.ini{
+	height: 50%;
+	background: white;
+	color: white;
+	text-align: center;
+	padding-top: 10%;
+}
+
+#asistencia{
+	background: #19bd9b;
+}
+
+#capacitacion{
+	background: #159f85;
+=======
+  	
+  }
+>>>>>>> 2066d4035178a2ba17973830b47c1c9625db6769
+}
+
+#financiamiento{
+	background: #f1c40f;
+}
+
+#networking{
+	background: #f29c11;
+}
+
+#red{
+	background: #e74b3c;
+}
+
+#asistencia:hover{
+	background: white;
+	color: #19bd9b;
+	font-size: 2em;
+}
+
+#capacitacion:hover{
+	background: white;
+	color: #159f85;
+	font-size: 2em;
+}
+
+#financiamiento:hover{
+	background: white;
+	color: #f1c40f;
+	font-size: 2em;
+}
+
+#networking:hover{
+	background: white;
+	color: #f29c11;
+	font-size: 2em;
+}
+.separador{
+	margin-top: 75px;
+}
+footer{
+
+	background:#10E739;
+	width:100%;
+	height: 8%;
+	position: absolute;
+
+}
+footer p {
+	text-align: center;
+	vertical-align: bottom;
+	margin-top: 20px;
+	margin-bottom: 10px;
+
+}
+.empresas{
+	background: #fff;
+
+}
+.empresas img{
+	 width: 170px;
+     height: 60px;
+     display:inline-block;margin:0 auto 0 auto;
+     margin-left: 70px;
+
+
+}
+article{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background:white;
+	
+    height: 100%;
+
+    -webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+
+	-webkit-box-shadow: 13px 39px 245px -38px rgba(0,0,0,0.75);
+	-moz-box-shadow: 13px 39px 245px -38px rgba(0,0,0,0.75);
+	box-shadow: 13px 39px 245px -38px rgba(0,0,0,0.75);
+
+}
+.container a {
+	margin-top: 60px;
+}
+@media screen and (max-width:940px ) {
+	header nav {
+		width:80%;
+		height:100%;
+		left:-100%;
+		margin:0;
+		position: fixed;
+
+	}
+
+	header .imagen img{
+
+	visibility: visible;
+	width: 230px;
+    height: 130px;
+    float: center;
+    position:absolute;
+    top: -30px;
+    
+}
+	header .imagen2 img{
+ 	
+	visibility: visible;
+	width: 190px;
+    height: 100px;
+    float: absolute;
+    top: 350px;
+    
+}
+
+	header nav img{
+
+    visibility: hidden;
+    
+
+}
+	header nav ul {
+	overflow:hidden;
+	list-style:none;
+	margin-left: 20px;
+}
+
+	header nav ul li {
+		display:block;
+		float:none;
+		border-bottom:1px solid rgba(255,255,255, .3);
+	}
+
+	.menu_bar {
+		display:block;
+		width:100%;
+		background:#20a8e9;
+		height: 65px;
+	}
+
+	.menu_bar .bt-menu {
+		display:block;
+		padding:20px;
+		background:#20a8e9;
+		color:#fff;
+		text-decoration:none;
+		font-weight: bold;
+		font-size:25px;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+	}
+
+	.menu_bar span {
+		float:right;
+		font-size:40px;
+	}	
+	footer{
+
+	background:#10E739;
+	width:100%;
+	height: 12%;
+	position: absolute;
+
+}
+article{
+	margin: 0px;
+	background:white;
+	width: 100%;
+    
+}
+.separador{
+	margin-top: 0px;
+}
+.empresas{
+	visibility: hidden;
+	position: fixed;
+
+}
+.container a {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+	
+}
