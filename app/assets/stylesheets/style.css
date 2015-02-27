@@ -16,7 +16,7 @@ body a{
 .bg{
 	max-width: 100%;
      height: auto;
-	background:url(bg.jpg) no-repeat 0px 0px;
+	background:url(<%= asset_path 'bg.jpg' %>) no-repeat 0px 0px;
 	background-size:cover;
 }
 /*-----start-header----*/
@@ -148,7 +148,7 @@ nav a#pull {
 	}
 	nav a#pull:after {
 		content:"";
-		background: url(nav-icon.png) no-repeat;
+		background: url(<%= asset_path 'nav-icon.png' %>) no-repeat;
 		width: 30px;
 		height: 30px;
 		display: inline-block;
@@ -222,7 +222,7 @@ nav a#pull {
 	width: 58px;
 	height: 58px;
 	display: inline-block;
-	background: url(top-icons.png) no-repeat 0px 0px;
+	background: url(<%= asset_path 'top-icons.png' %>) no-repeat 0px 0px;
 }
 .banner-grid h3{
 	color:#FFF;
@@ -289,7 +289,7 @@ nav a#pull {
 
 /*---- process ----*/
 .process{
-	background: url(process-bg.jpg) no-repeat 0px 0px;
+	background: url(<%= asset_path 'process-bg.jpg' %>) no-repeat 0px 0px;
 	background-size:cover;
 	padding: 4em 0 6em;
 }
@@ -312,7 +312,7 @@ nav a#pull {
 	width:68px;
 	height:68px;
 	display:inline-block;
-	background:url(process-icons.png) no-repeat 0px 0px;
+	background:url(<%= asset_path 'process-icons.png' %>) no-repeat 0px 0px;
 }
 .process-grid span.p-icon2{
 	background-position:-236px 0px;
@@ -324,19 +324,19 @@ nav a#pull {
 	background-position: -709px 0px;
 }
 .process-grid1{
-	background:url(p-bg1.jpg) no-repeat 0px 0px;
+	background:url(<%= asset_path 'p-bg1.jpg' %>) no-repeat 0px 0px;
 	background-size:cover;
 }
 .process-grid2{
-	background:url(p-bg2.jpg) no-repeat 0px 0px;
+	background:url(<%= asset_path 'p-bg2.jpg' %>) no-repeat 0px 0px;
 	background-size:cover;
 }
 .process-grid3{
-	background:url(p-bg3.jpg) no-repeat 0px 0px;
+	background:url(<%= asset_path 'p-bg3.jpg' %>) no-repeat 0px 0px;
 	background-size:cover;
 }
 .process-grid4{
-	background:url(p-bg4.jpg) no-repeat 0px 0px;
+	background:url(<%= asset_path 'p-bg4.jpg' %>) no-repeat 0px 0px;
 	background-size:cover;
 }
 
@@ -570,7 +570,7 @@ p.m_5 {
 	width: 92px;
 	height: 92px;
 	display: inline-block;
-	background: url(p-btn-bg.png) no-repeat 0px 0px;
+	background: url(<%= asset_path 'p-btn-bg.png' %>) no-repeat 0px 0px;
 }
 .more-ports{
 	width: 100%;
@@ -705,7 +705,7 @@ a.catch-me:hover{
 	width: 23px;
 	height: 25px;
 	display: inline-block;
-	background: url(map-icons.png) no-repeat 0px 0px;
+	background: url(<%= asset_path 'map-icons.png' %>) no-repeat 0px 0px;
 	vertical-align: middle;
 	margin-right: 0.3em;
 }
@@ -767,7 +767,7 @@ a.contact-me:hover{
 	height:19px;
 	border: none;
 	text-indent: 100%;
-	background: url(top-arrow.png) no-repeat 0px 0px;
+	background: url(<%= asset_path 'top-arrow.png' %>) no-repeat 0px 0px;
 }
 #toTopHover {
 	width:32px;
