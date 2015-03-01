@@ -19,6 +19,7 @@
 			<script src="js/jquery.min.js"></script>
 			<script type="text/javascript" src="js/jquery.corner.js"></script> 
 			<script src="js/wow.min.js"></script>
+			<script src="js/complementos.js"></script>
 
 		</head>
 
@@ -88,15 +89,21 @@
 
 			<section id="contenido">
 				<center>
-
+					<div class="container">
 					<div class="row" id="Gris">
 						<h1>Contenido del Módulo</h1>
 						<div class="col-md-6">
 							<p><a href="frmModulo.html">-Modulo-</a></p>
 							<ul>
-								<li><a href="frmModulo.html">-Tema 1-</a></li>
-								<li><a href="frmModulo.html">-Tema 2-</a></li>
-								<li><a href="frmModulo.html">-Tema 3-</a></li>
+								<li><a id="a" href="#contenido">-Tema 1-</a>
+								<input id="boton" type="image" src="img/flecha.png" name="image" width="30" height="20"  onClick="cambiar();">
+								</li>
+								<li><a href="#contenido">-Tema 2-</a>
+								<input id="boton" type="image" src="img/flecha.png" name="image" width="30" height="20"  onClick="cambiar1();">
+								</li>
+								<li><a href="#contenido">-Tema 3-</a>
+								<input id="boton" type="image" src="img/flecha.png" name="image" width="30" height="20"  onClick="cambiar2();">
+								</li>
 							</ul> <br>
 
 							<p><a class="btn" href="frmExamen.html" id="">-Realizar Examen-</a></p>
@@ -104,7 +111,13 @@
 						</div>
 						<div class="col-md-6">
 							<!-- Div Dinamico -->
+							<br><br>
+							<div id="caja">
+
+								
+							</div>
 						</div>
+					</div>
 					</div>
 					<br><br><br><br><br><br>
 
