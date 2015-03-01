@@ -14,9 +14,8 @@ body a{
 }
 
 .bg{
-	max-width: 100%;
-     height: auto;
-	background:url(../images/bg.jpg) no-repeat 0px 0px;
+	
+	background:url(../images/bg.png) no-repeat 0px 0px;
 	background-size:cover;
 }
 /*-----start-header----*/
@@ -44,7 +43,7 @@ body a{
 }
 .top-nav ul li a{
 	color: #FFF;
-	padding: 0.84em 3.0804em;
+	padding: 0.84em 0.8em;
 	font-size: 1.25em;
 	font-weight: 400;
 	text-align: center;
@@ -102,8 +101,82 @@ nav a:hover{
 nav a#pull {
 	display: none;
 }
+.hoverletras:hover{
+	font-size: 28px;
+	color:   	#FFFFCC;
+}
+.imglogo{
+	height: 110px;
+	width: 400px;
+	margin-bottom: -220px;
+}
+
+.navbar img{
+    height: 90px;
+    width: 190px;
+    margin-top: -35px;
+}
+/*Dentro de aa se coloca el margin para que todo lo que va dentro del container se quede bajo del nav */
+.aa{
+	margin-top: 80px;
+}
+
+/* Estilo para las imagenes dentro de la pagina Capasitaciones */
+.row .padImagen{
+	text-align: center;
+}
+.row .padImagen img{
+	margin-top: 10px;
+}
+.row .padImagen a{
+	margin-bottom: 20px;
+}
+/*Aplicando color a las categorias de las capacitaciones */
+#primero{
+	background: #ffb347;
+}
+#segundo{
+	background: #63e9fc;
+}
+#tercero{
+background: #FF6961;
+}
+#cuarto{
+	background: #b19cd9;
+	margin-top: -10px;
+	
+}
+#quinto{
+	background: #77dd77;
+	margin-top: -10px;
+}
+#sexto{
+	background: #fdfd96;
+	margin-top: -10px;
+}
+.imgLogin{
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	position: relative;
+	margin-top: -10px;
+	margin-bottom: -10px;
+	float: right;
+
+}
+.imgLogin:hover{
+	opacity: 0.5;
+}
+.iniSesionPeque{
+	visibility: hidden;
+}
 /*Styles for screen 600px and lower*/
 @media screen and (max-width: 768px) {
+.bg{
+	
+	background:url(../images/bg.png) no-repeat 0px 0px;
+	background-size:cover;
+}
 	
 	nav { 
   		height: auto;
@@ -128,6 +201,12 @@ nav a#pull {
 }
 /*Styles for screen 515px and lower*/
 @media only screen and (max-width : 768px) {
+
+	.bg{
+	
+	background:url(../images/bg2.png) no-repeat 0px 0px;
+	background-size:cover;
+}
 	nav {
 		border-bottom: 0;
 		float:none;
@@ -166,6 +245,11 @@ nav a#pull {
 }
 /*Smartphone*/
 @media only screen and (max-width : 320px) {
+	.bg{
+	
+	background:url(../images/bg2.png) no-repeat 0px 0px;
+	background-size:cover;
+}
 	nav {
 		float:none;
 	}
@@ -221,7 +305,7 @@ nav a#pull {
 .banner-grid span{
 	width: 58px;
 	height: 58px;
-	display: inline-flex;
+	display: inline-block;
 	background: url(../images/top-icons.png) no-repeat 0px 0px;
 }
 .banner-grid h3{
@@ -781,19 +865,23 @@ a.contact-me:hover{
 }
 /*---- responsive-design ----*/
 @media(max-width:1366px){
-	.bg {
-		max-width: 100%;
-height: auto;
-		}
+	.bg{
+	
+	background:url(../images/bg.png) no-repeat 0px 0px;
+	background-size:cover;
+}
+	
 	.about-grid-info {
 		padding: 1.2em 2.5em;
 	}
 }
 @media(max-width:1280px){
-	.bg {
-		max-width: 100%;
-height: auto;
-		}
+	.bg{
+	
+	background:url(../images/bg.png) no-repeat 0px 0px;
+	background-size:cover;
+}
+	
 	.about-grid-info {
 		padding: 0.5em 1.34em;
 	}
@@ -806,6 +894,11 @@ height: auto;
 	}
 }
 @media(max-width:1024px){
+	.bg{
+	
+	background:url(../images/bg.png) no-repeat 0px 0px;
+	background-size:cover;
+}
 	.bg {
 		max-width: 100%;
 height: auto;
@@ -822,10 +915,12 @@ height: auto;
 	}
 }
 @media(max-width:768px){
-	.bg {
-		max-width: 100%;
-height: auto;
-		}
+	.bg{
+	
+	background:url(../images/bg.png) no-repeat 0px 0px;
+	background-size:cover;
+}
+	
 	.about-grid-info {
 		padding: 0.5em 1.34em;
 	}
@@ -900,10 +995,18 @@ height: auto;
 	}
 }
 @media(max-width:640px){
-	.bg {
-		max-width: 100%;
-height: auto;
-		}
+	.imglogo{
+	
+	margin-top: 30px;
+	margin-bottom: -180px;
+}
+
+	.bg{
+	
+	background:url(../images/bg.png) no-repeat 0px 0px;
+	background-size:cover;
+}
+	
 	.about-grid-info {
 		padding: 0.5em 1.34em;
 	}
@@ -998,11 +1101,13 @@ height: auto;
 	}
 }
 @media(max-width:480px){
+	.bg{
 	
-	.bg {
-		max-width: 100%;
-height: auto;
-		}
+	background:url(../images/bg.png) no-repeat 0px 0px;
+	background-size:cover;
+}
+	
+	
 	.about-grid-info {
 		padding: 0.5em 1.34em;
 	}
@@ -1131,9 +1236,15 @@ height: auto;
 	}
 }
 @media(max-width:320px){
-	.bg {
-		width: 100%;
-		}
+	
+
+	
+
+	.bg{
+	
+	background:url(../images/bg2.png) no-repeat 0px 0px;
+	background-size:cover;
+}
 	.about-grid-info {
 		padding: 0.5em 1.34em;
 	}
@@ -1316,4 +1427,28 @@ height: auto;
 		padding: 0.8em 0;
 	}
 }
+@media(max-width:520px){
+	.imglogo{
+	height: 60px;
+	width: 300px;
+	margin-top: 30px;
+	margin-bottom: -140px;
+}
 
+}
+@media(max-width:320px){
+	
+	.imglogo{
+	margin-top: 30px;
+	padding-top: 20px;
+	margin-bottom: -80px;
+}
+}
+@media(max-width:991px){
+	.imgLogin{
+		visibility: hidden;
+	}
+	.iniSesionPeque{
+	visibility: visible;
+}
+}

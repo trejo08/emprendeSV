@@ -1,0 +1,155 @@
+		<!DOCTYPE html>
+		<html>
+		<head>
+			<title>Modulo</title>
+
+			<meta charset="UTF-8">
+			<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+			<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css" />
+			<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css.map" />
+			<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css" />
+			<link rel="stylesheet" type="text/css" href="css/bootstrap.css.map" />
+			<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+			<link rel="stylesheet" type="text/css" href="css/me.css" />
+			<link rel="stylesheet" type="text/css" href="css/animate.css" />
+			<link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
+			<link rel="stylesheet" type="text/css" href="css/style.css" />
+			<link rel="stylesheet" type="text/css" href="css/fancy-buttons.css" />
+
+			<script src="js/jquery.min.js"></script>
+			<script type="text/javascript" src="js/jquery.corner.js"></script> 
+			<script src="js/wow.min.js"></script>
+
+		</head>
+
+		<body>
+
+			<!---- animated-css ---->
+			<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+			<script type="text/javascript" src="js/jquery.corner.js"></script> 
+			<script src="js/wow.min.js"></script>
+			<script> new //WOW().init();</script>
+			<!---- animated-css ---->
+
+			<!---- start-smoth-scrolling---->
+			<script type="text/javascript" src="js/move-top.js"></script>
+			<script type="text/javascript" src="js/easing.js"></script>
+
+			<!----- start-header---->
+			<div class="container">
+				<div id="home" class="header wow bounceInDown" data-wow-delay="0.4s">
+					<div class="top-header">
+						<!----start-top-nav---->
+						<nav class="top-nav">
+							<ul class="top-nav">
+								<li><a href="#about" class="scroll">Asistencia</a></li>
+								<li><a href="#process" class="scroll">Capacitaciones</a></li>
+								<li><a href="#port" class="scroll">Financiamiento</a></li>
+								<li class="page-scroll"><a href="#" class="scroll">Networking</a></li>
+								<li class="iniSesionPeque"><a>Iniciar Sesion</a></li>
+								<li><a><img class="imgLogin" src="img/login.png" data-toggle="tooltip" data-placement="bottom" title="Iniciar Sesion"></a></li>
+							</ul>
+							<a href="#" id="pull"><img src="img/nav-icon.png" title="menu" /></a>
+						</nav>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<br>
+
+			<!----- //End-header---->
+
+			<section id="inicio">
+				<center>
+					<div class="container">
+						
+						<div class="row" id="Gris">
+							<div class="col-md-6" >
+								<h1>Bienvenida al Modulo 2</h1>
+								<div><img src="img/home-circles-learn.png" width="120px"></div>
+								<h3>Descripción</h3>
+								<div><span>
+									La capacitación esta impartica con un profesional del sector.
+									<br><br>
+									<p><a class="btn" href="#contenido" id="">-Contenido del Módulo-</a></p>
+									<br><br><br>
+								</span></div>
+							</div>
+							<div class="col-md-6" >
+								<div>
+									<iframe width="450px" height="350px" src="https://www.youtube.com/embed/2I8-KQoQMNM" frameborder="0" allowfullscreen></iframe>
+								</div><br>
+							</div>
+						</div>
+
+					</div>
+				</center>
+			</section><br>
+
+			<section id="contenido">
+				<center>
+
+					<div class="row" id="Gris">
+						<h1>Contenido del Módulo</h1>
+						<div class="col-md-6">
+							<p><a href="frmModulo.html">-Modulo-</a></p>
+							<ul>
+								<li><a href="frmModulo.html">-Tema 1-</a></li>
+								<li><a href="frmModulo.html">-Tema 2-</a></li>
+								<li><a href="frmModulo.html">-Tema 3-</a></li>
+							</ul> <br>
+
+							<p><a class="btn" href="frmExamen.html" id="">-Realizar Examen-</a></p>
+
+						</div>
+						<div class="col-md-6">
+							<!-- Div Dinamico -->
+						</div>
+					</div>
+					<br><br><br><br><br><br>
+
+				</center>
+
+				<a class='flotante' href='#inicio' ><img src='img/back_button.png' border="0" width="100px" /></a>
+
+			</section>
+
+
+
+
+
+	<!--
+	<div name="div_dinamico" id="div_dinamico" class="div_dinamico">
+	<input name="boton_cargar" id="boton_cargar" type="button" value="Cargar contenido"/>
+		
+		<script type="text/javascript" src="../js/jquery-1.4.5.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+
+		$('#boton_cargar').click(function() {
+			$.ajax({
+				url: 'frmInformatica.html', //Lo que se quiere mostrar
+				success: function(data) {
+					$('#div_dinamico').html(data);
+				}
+			});
+		});
+
+		$('#boton_cargar_anim').click(function() {
+			$.ajax({
+				url: 'frmInformatica.html',
+				success: function(data) {
+					$('#div_dinamico_anim').html(data);
+					$('#div_dinamico_anim div').slideDown(1000);
+				}
+			});
+		});
+
+	});
+	</script>
+-->
+
+
+</body>
+
+</html>
